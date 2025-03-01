@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 BitLinks - URL Shortener
 
-## Getting Started
+**BitLinks** is a fast and efficient **URL shortener** built with **Next.js** and **MongoDB**, designed to provide users with a seamless experience in shortening, managing, and tracking their links. The app also integrates **TopNotch Bar** for smooth UI interactions and **React Toaster** for notifications.
 
-First, run the development server:
+---
 
+## 🚀 Features
+
+- ✂️ **Shorten Long URLs**: Generate short, shareable links instantly.
+- 📊 **Link Analytics**: Track clicks and performance of shortened URLs.
+- 👤 **User Authentication**: Secure login and link management.
+- 🔔 **Toaster Notifications**: Instant feedback for user actions.
+- 🚀 **TopNotch Bar**: Enhances the user experience with a smooth progress bar.
+- 🌙 **Dark/Light Mode**: Toggle themes for a personalized experience.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **Next.js** - Full-stack framework for React.
+- 🛢️ **MongoDB** - NoSQL database for storing URLs.
+- 🔗 **TopNotch Bar** - Smooth loading progress indicators.
+- 🔥 **React Toaster** - Toast notifications for better UX.
+- 🎨 **ShadCN UI** - Elegant UI components for a modern design.
+- 🖌️ **Tailwind CSS** - Utility-first styling for rapid development.
+
+---
+
+## 📦 Installation
+
+Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/asadali-07/bitlinks.git
+cd bitlinks
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
+```bash
+yarn install  # or npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Running the Project
 
-## Learn More
+To start the development server:
+```bash
+yarn dev  # or npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project is optimized for deployment on **Vercel**:
+1. ⬆️ Push your changes to GitHub.
+2. 🔗 Connect the repo to Vercel.
+3. ⚙️ Configure environment variables.
+4. 🚀 Deploy with a single click from the Vercel dashboard.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔑 Environment Variables
+Create a `.env.local` file and add the following:
+```env
+NEXT_PUBLIC_BASE_URL=your-app-url
+MONGO_URI=your-mongodb-connection-string
+NEXT_PUBLIC_API_KEY=your-api-key
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+💡 Feel free to open **issues** and **pull requests** if you'd like to contribute!
+
+---
+
+## 📄 License
+📝 MIT License © 2025 **Asad Ali**
