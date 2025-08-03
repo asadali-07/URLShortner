@@ -84,7 +84,7 @@ export default function Home() {
               height={100}
             />
             <h3 className="text-xl font-semibold my-3 text-purple-500">Privacy First</h3>
-            <p>No tracking, no login required—your data is safe.</p>
+            <p>No tracking or login required—your data is safe.</p>
           </div>
           <div className="flex flex-col justify-center items-center">
             <Image
@@ -106,14 +106,14 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-8">
           <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-xs">
             <p className="italic text-lg">
-              “The best URL shortener I've used. Simple and easy to use!”
+              &quote;The best URL shortener I have used. Simple and easy to use!&quote;
             </p>
             <p className="mt-4 font-semibold text-gray-800">Rohan Das</p>
             <p className="text-sm text-gray-500">Startup Owner</p>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-xs">
             <p className="italic text-lg">
-              “I love the customization options and the privacy features.”
+              &quote;I love the customization options and the privacy features.&quote;
             </p>
             <p className="mt-4 font-semibold text-gray-800">Izhan Ahmed</p>
             <p className="text-sm text-gray-500">Freelancer</p>
