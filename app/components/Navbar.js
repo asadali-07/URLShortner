@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
     <nav className='h-16 px-3 bg-purple-700 text-white flex flex-row justify-between items-center'>
       <div className='flex flex-row justify-center items-center gap-2'>
         <Link href={"/"}>
-          <img className='w-12 h-12' src='/links.webp' alt='Logo' />
+          <Image height={48} width={48} src='/links.webp' alt='Logo' />
         </Link>
       <div className='font-semibold text-2xl'>BitLinks</div>
       </div>
@@ -24,10 +25,10 @@ const Navbar = () => {
         <Link href={"/contact"}><li>Contact Us</li></Link>
         <li className='flex flex-row gap-3'>
           <Link href={"/shorten"}>
-            <button className='bg-purple-500 rounded-lg font-semibold px-3 py-1'>Try Now</button>
+            Try Now
           </Link>
-          <Link href={"/github"} target='_blank'>
-            <button className='bg-purple-500 rounded-lg font-semibold px-3 py-1'>GitHub</button>
+          <Link href={"https://github.com/asadali-07/URLShortner"} target='_blank'>
+            GitHub
           </Link>
         </li>
       </ul>
